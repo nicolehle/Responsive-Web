@@ -43,13 +43,13 @@ a {
 }
 
 #img-div {
-  display: block;
   margin: 0 auto;
   width: 640px;
   height: 480px;
 }
 
 #image {
+  display: block;
   text-align: center;
   max-width: 100%;
 }
