@@ -12,6 +12,7 @@ body {
 h1 {
   color: #fff;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 p {
@@ -27,12 +28,16 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 35%;
+  margin-left: 37%;
   text-align: left;
 }
 
 li {
   margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
 }
 
 .form-container {
@@ -59,6 +64,46 @@ li {
   border: none;
   border-bottom: 1px solid #989898;
   width: 40%;
+  text-align-last: center;
   height: 25px;
   text-align: center;
+}
+
+.option-field {
+    text-align-last: center;
+}
+
+.radio-center {
+    margin-left: 42.5%;
+}
+
+.textarea-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-align-last: center;
+}
+
+.submit-tab {
+  margin-top: -15px;
+}
+
+.submit-field {
+  background-color: #4d3399;
+  font-size: 1.1rem;
+  color: #fbfbfb;
+  width: 15%;
+  height: 30px;
+}
+
+@media (max-width: 500px){
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .input-field {
+
+  }
 }
