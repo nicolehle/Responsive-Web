@@ -49,7 +49,7 @@ section {
  
 2.<i>Condider UX for arranging checkbox elements center but with same start point. </i> 
 
-Set text-align to the left while other elements are centered to give checkbox look organized. Then center the element as adjusting margin-left
+-Set text-align to the left while other elements are centered to give checkbox look organized. Then center the element as adjusting margin-left
 
 ul {
   margin-left: 37%;
@@ -61,7 +61,7 @@ ul {
 
 3.<i>Imporve efficiency applying css on each div block by distinguishing reusable variables.</i>
 
-Each div has rowtab class that provides same margin element making the page consistency as well.
+-Each div has rowtab class that provides same margin element making the page consistency as well.
 
 .rowtab {
   margin: 50px 0;
