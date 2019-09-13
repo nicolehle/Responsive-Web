@@ -56,6 +56,8 @@ ul {
   text-align: left;
 }
 
+<br>
+
 
 3.<i>Imporve efficiency applying css on each div block by distinguishing reusable variables.</i>
 
