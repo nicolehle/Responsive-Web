@@ -98,12 +98,33 @@ textarea {
   height: 30px;
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
+
   h1 {
-    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin-left: 15%;
+  }
+
+  .textarea-container {
+    width: 95%;
+  }
+
+  .radio-center {
+    margin-left: 27%;
+  }
+
+  .form-container {
+    width: 65%;
   }
 
   .input-field {
+    width: 100%;
+  }
 
+  .submit-field {
+    width: 50%;
   }
 }
