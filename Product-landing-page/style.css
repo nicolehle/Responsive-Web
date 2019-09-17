@@ -1,0 +1,100 @@
+html {
+  font-family: 'Viga', sans-serif;
+  font-size: 16px;
+  background-color: #bdc4c4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+    padding-top: 60px;
+}
+
+p {
+  padding-top: 40px;
+}
+
+h2, p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+li:first-child {
+  margin-left: 10%;
+}
+
+.wrapper {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.head-container {
+  display: flex;
+  border-bottom: 5px solid #b0b8b8;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.nav-div {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+  text-align: center;
+}
+
+.flex-center {
+  text-align: center;
+  background-color: #c4c4bd;
+}
+
+.flex-container {
+  display: inline-flex;
+  text-align: center;
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.large-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #c4c4bd;
+}
+
+.large-hero img {
+  opacity: 0.4;
+  width: 100%;
+  border-radius: 5px;
+}
