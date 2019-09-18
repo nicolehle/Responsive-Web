@@ -5,26 +5,29 @@
     <title>Product Landing Page</title>
     <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
   </head>
 
   <body>
     <header id="header">
-      <div class="wrapper head-container">
-        <div class="img-div">
-          <img id="header-img" class="logo" src="https://www.seattlecidercompany.com/wp-content/themes/seattle-cider/img/logo.png" alt="logo">
-        </div>
+      <div class="head-container">
+        <div class="wrapper">
+            <div class="img-div">
+              <img id="header-img" class="logo" src="https://www.seattlecidercompany.com/wp-content/themes/seattle-cider/img/logo.png" alt="logo">
+            </div>
 
-        <div class="nav-div">
-          <nav id="nav-bar">
-            <ul>
-              <li class="nav-link">
-                <a href="#products">Products</a></li>
-              <li class="nav-link">
-                <a href="#features">Features</a></li>
-              <li class="nav-link">
-                <a href="contacts">Contacts</a></li>
-            </ul>
-          </nav>
+            <div class="nav-div">
+              <nav id="nav-bar">
+                <ul>
+                  <li>
+                    <a class="nav-link" href="#products">Products</a></li>
+                  <li>
+                    <a class="nav-link" href="#features">Features</a></li>
+                  <li>
+                    <a class="nav-link" href="#contacts">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
         </div>
       </div>
     </header>
@@ -52,29 +55,44 @@
 
     <div class="features wrapper" id="features">
       <h2>CIDER IS SIMPLE</h2>
-      <p>Naturally gluten free and made from a custom blend of fresh pressed, locally grown Washington apples, Seattle Cider’s products are handcrafted with real ingredients, successfully distinguishing themselves from the mass market cider found in stores today.</p>
+        <p>Naturally gluten free and made from a custom blend of fresh pressed, locally grown Washington apples, Seattle Cider’s products are handcrafted with real ingredients, successfully distinguishing themselves from the mass market cider found in stores today.</p>
 
-      <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/apples.png" alt="apple"><p>We use a custom blend of fresh pressed Washington grown apples to create our cider.</p>
-      <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/yeast.png" alt=yeast""><p>A strain of white wine yeast is used to achieve Seattle Cider's unique flavor profile.</p>
-      <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/natural-flavors.png" alt="real"><p>Real ingredients such as spices, pumpkin, raisins and more are introduced during fermentation to create unique seasonal ciders.</p>
+      <div class="flex-container flex-container--second">
+        <div class="container container--second">
+          <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/apples.png" alt="apple"><p>We use a custom blend of fresh pressed Washington grown apples to create our cider.</p>
+        </div>
+
+        <div class="container container--second">
+          <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/yeast.png" alt=yeast""><p>A strain of white wine yeast is used to achieve Seattle Cider's unique flavor profile.</p>
+        </div>
+
+        <div class="container container--second">
+          <img src="https://www.seattlecidercompany.com/wp-content/uploads/2013/08/natural-flavors.png" alt="real"><p>Real ingredients such as spices, pumpkin, raisins and more are introduced during fermentation to create unique seasonal ciders.</p>
+        </div>
+      </div>
     </div>
 
 
     <div class="video wrapper">
       <h2>CIDER AND PEOPLE</h2>
-      <video id="video" width="320px" height="240px" controls>
-        <source src="https://youtu.be/bz79dbfzujc" type="video/">
-      </video>
-
+      <div class="video-container">
+        <video id="video" width="550px" height="350px" controls>
+          <source src="https://youtu.be/bz79dbfzujc" type="video/">
+        </video>
+      </div>
     </div>
 
-    <div class="wrapper" id="contacts">
-      <form id="form" class="" action="index.html" method="post">
-        <h2>Let's keep In Touch!</h2>
-        <label for="email">Email:</label>
-        <input id="email" type="email" name="email" placeholder="Enter your email" required>
-        <input id="submit" type="submit" name="submit" value="Submit">
-      </form>
+    <div class="form-height" id="contacts">
+      <div class="wrapper">
+        <form id="form" class="" action="index.html" method="post">
+          <h2>Let's keep In Touch!</h2>
+          <div class="input-div">
+            <label for="email">Email:</label> <br><br>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            <a href="https://www.freecodecamp.com/email-submit" target="_blank"><button id="submit" type="button" name="button">Submit</button></a>
+          </div>
+        </form>
+      </div>
     </div>
 
 
