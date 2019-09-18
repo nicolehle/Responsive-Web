@@ -70,3 +70,23 @@ ul {
 .rowtab-second {
   margin: 15px 0 0 10px;
 }
+
+----------------------------------------------------------------------------------------------------
+<strong>3. Build a Product Landing Page (HTML, CSS)</strong>
++ Challenges and Solutions/Efficiency
+
+1.<i>Build reusable columns in a div, utilizing CSS flexbox.</i> <br>
+
+-Considered how boxes behave with flexed display and nested flexbox's behavior.  
+ 
+2.<i>Achieve fixed navigation elements with a image element together.</i> 
+
+-Styling navigation first and then applying fixed position reset the original styling(hegint, centering. etc). It was not efficent styling it again. Next time, build layout and design seperately.
+
+<br>
+
++ To improve the Product Landing Page and further challenges
+1. Seperate global variables from main style.css flie to sub file.
+2. Seperate navigation styling from main style.css for reusing it to other projects.
+3. Use CSS BEM method to organize classes and codes.
+4. Maintain consistency of css codes. (Practice SMACSS)
