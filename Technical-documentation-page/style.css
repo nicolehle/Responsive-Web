@@ -73,7 +73,6 @@ nav {
   padding: 5px 0 5px 25px;
 }
 
-
 .primary-nav--ul {
   list-style: none;
   text-align: center;
@@ -100,23 +99,95 @@ nav {
 
 /*------------Media Query--------------*/
 @media only screen and (max-width: 815px) {
+
+body {
+  font-size: 30px;
+  text-align: center;
+}
+
+header {
+  font-size: 3rem;
+
+}
+
+main {
+  position: none;
+  margin: 0 0 0 0;
+  padding: 80px;
+  left: 0;
+  text-align: left;
+}
+
+p {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+#navbar {
+  min-width: 218.5%;
+  height: auto;
+  box-shadow: none;
+  position: relative;
+}
+
+.primary-nav--title {
+  padding: 20px 0 20px 0;
+}
+
+.primary-nav--ul {
+  position: relative;
+  background-color: white;
+  height: auto;
+  padding: 0;
+}
+
+.primary-nav--li {
+  position: none;
+  font-size: 1.8rem;
+}
+
+code {
+  margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
   body {
-    text-align: center;
+    font-size: 45px;
+  }
+
+  header {
+    font-size: 3.2rem;
+    font-weight: 600;
   }
 
   main {
-    position: relative;
-    margin-left: 0px;
-    margin-top: 310px;
+    width: 350%;
+    position: none;
+    padding: 80px;
+    left: 0;
+    text-align: left;
   }
 
-  .primary-nav {
-    top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 275px;
-    border: none;
-    z-index: 1;
+  code {
+    margin-left: -20px;
+    margin-right: 15px;
+    overflow-y: scroll;
+  }
+
+  #navbar {
+    min-width: 400.5%;
+  }
+
+  .primary-nav--title {
+    padding: 40px 0 40px 0;
+    font-size: 5rem;
+  }
+
+  .primary-nav--li {
+    position: none;
+    font-size: 2.5rem;
+    font-weight: 600;
   }
 }
